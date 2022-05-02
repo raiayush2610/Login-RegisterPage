@@ -1,0 +1,50 @@
+<%- include('partials/header') %>
+<div class="login-wrapper">
+  <div class="container-center">
+    <div class="panel panel-bd">
+      <div class="panel-heading">
+        <div class="view-header">
+          <div class="header-icon">
+            <i class="pe-7s-unlock"></i>
+          </div>
+          <div class="header-title">
+            <h3>Demo Hospital Limited</h3>
+            <small><strong>Register Your as hospital</strong></small>
+          </div>
+        </div>
+
+          <!-- Makes POST request to /register route -->
+          <div class="panel-body">
+          <form action="/register" method="POST">
+            <div class="form-group">
+              <label class="control-label" for="email">Email</label>
+              <input type="email" class="form-control" name="username">
+            </div>
+            <div class="form-group">
+              <label class="control-label" for="password">Password</label>
+              <input type="password" class="form-control" name="password">
+            </div>
+            <button type="submit" class="btn btn-dark">Register</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- <div class="col-sm-4">
+      <div class="card social-block">
+        <div class="card-body">
+          <a class="btn btn-block" href="/auth/google" role="button">
+            <i class="fab fa-google"></i>
+            Sign Up with Google
+          </a>
+        </div>
+      </div>
+    </div> -->
+
+  </div>
+</div>
+
+<%- include('partials/header') %>
